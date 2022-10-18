@@ -1,0 +1,14 @@
+.navbar {
+	padding: 10px;
+	background-color: #333;
+	color: rgba(243, 243, 243, 0.687);
+}
+
+.navbar *:hover {
+	cursor: pointer;
+	color: white;
+}
+
+.navbar a {
+	margin-right: 30px;
+}

@@ -1,0 +1,28 @@
+.teamContainer {
+	align-self: flex-start;
+	justify-self: flex-start;
+	border: 5px solid #333;
+	border-radius: 15px;
+	margin-right: 30px;
+	margin-top: 50px;
+	padding: 30px;
+	width: 70vw;
+}
+
+.pokemonSpriteContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.pokemonSpriteContainer img {
+	margin: 0 10px 0 10px;
+	box-sizing: content-box;
+	display: inline-block;
+	border-bottom: 3px solid rgb(200, 200, 200);
+}
+
+.teamName:hover {
+	cursor: pointer;
+	color: rgb(138, 138, 138);
+}
